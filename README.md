@@ -71,7 +71,7 @@ To understand both the attack and defense sides of cybersecurity by:
 
 ## Full Report
 
-[Download the full report (PDF)](./Digital Hide & Seek_A Cybersecurity Lab Adventure.pdf)
+[Download the full report (PDF)](./report.pdf)
 
 This detailed write-up covers all steps taken, mistakes made, and lessons learned in the lab environment.
 
