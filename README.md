@@ -1,4 +1,4 @@
-# Digital Hide & Seek: A Cybersecurity Lab Adventure
+# Windows 10 Internal Penetration Test & Incident Response Report
 
 Welcome to my first hands-on cybersecurity project, where I built a safe, virtual lab environment to simulate ethical hacking attacks and defense techniques. This was a deep dive into the world of red teaming, blue teaming, and digital forensics, all from a beginner’s perspective.
 
@@ -17,8 +17,7 @@ To understand both the attack and defense sides of cybersecurity by:
 ## Lab Setup
 
 - **Kali Linux** — Attacker machine
-- **Ubuntu Linux** — Target machine (Linux-based)
-- **Windows 7** — Target machine (vulnerable legacy OS)
+- **Windows 10** — Target machine
 - **Virtualization** — Isolated network using VirtualBox
 - **No internet connectivity** — For safe testing
 
@@ -27,12 +26,8 @@ To understand both the attack and defense sides of cybersecurity by:
 ## Tools-Set
 
 - 🔍 Nmap – Port scanning & reconnaissance  
-- 🦈 Wireshark – Packet sniffing  
-- 🛠️ Metasploit – Payload generation and handler setup  
-- 💉 SQLmap – SQL injection testing  
-- 🔐 Hydra – Password brute-forcing  
-- 🕷️ Burp Suite – Web proxy and vulnerability analysis  
-- 📋 Event Viewer, Netstat, Task Manager – Blue team forensics  
+- 🛠️ Metasploit – Payload generation and handler setup   
+- 📋 Event Viewer, Sysmon, Task Manager – Blue team forensics  
 - 🧱 AppLocker, Windows Firewall, Sysmon – Defensive hardening  
 
 ---
@@ -42,7 +37,7 @@ To understand both the attack and defense sides of cybersecurity by:
 - Network scanning using `arp-scan` and Nmap
 - Identified firewall-blocked targets
 - Created a reverse HTTPS payload with `msfvenom`
-- Used social engineering (fake installer + README) to deliver the payload
+- Used social engineering (fake salary pdf.exe double extension) to deliver the payload
 - Hosted the payload via a local Python HTTP server
 - Gained remote shell access via Metasploit
 - Performed basic post-exploitation and system enumeration
@@ -69,13 +64,6 @@ To understand both the attack and defense sides of cybersecurity by:
 
 ---
 
-## Full Report
-
-[Download the full report (PDF)](./report.pdf)
-
-This detailed write-up covers all steps taken, mistakes made, and lessons learned in the lab environment.
-
----
 
 ## What I Learned
 
@@ -87,16 +75,7 @@ This detailed write-up covers all steps taken, mistakes made, and lessons learne
 
 ---
 
-## What's Next?
 
-I'm planning to:
-- Explore Active Directory labs and lateral movement
-- Learn detection engineering using Sigma + Sysmon
-- Try SIEM tools like Splunk or Wazuh
-- Try new attacks as a red teamer
-- Exploring Burp Suite for web hacking (ethical ofcourse!)
-
----
 
 ## Let’s Connect!
 
